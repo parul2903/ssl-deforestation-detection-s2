@@ -35,6 +35,16 @@ We implemented and trained contrastive learning models to learn feature represen
 - Used learned embeddings to build a downstream model for deforestation prediction.
 - Analyzed deforestation patterns in Guwahati from 2019–2024.
 
+### Mean NDVI Values
+| Year  | Mean NDVI Value |
+|-------|-----------------|
+| 2013  | 0.2238          |
+| 2020  | 0.2071          |
+| 2026  | 0.2036          |
+
+### Example Output
+![Deforestation Analysis](readme_images/CD.png)
+
 ## Future Scope
 - Experiment with additional self-supervised methods like BYOL and SwAV.
 - Extend the dataset to include more spectral bands.
